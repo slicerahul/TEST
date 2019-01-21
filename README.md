@@ -1,11 +1,11 @@
-Onfido Service
-============
+---
+
+## Onfido Service
 
 Microservice to automate identity verification process for users using a third party tool - Onfido.
 
----
 
-## Prerequisite
+### Prerequisite
 
 Install following libraries to get started -
 
@@ -14,7 +14,7 @@ Install following libraries to get started -
 - MongoDB `(v4.0)`
 - NPM `(v6.4.1)`
 
-## Setup
+### Setup
 
 Use following commands for various tasks -
 
@@ -24,8 +24,9 @@ Use following commands for various tasks -
 - Run `npm run debug` to start the server in debug mode
 - Run `npm run tslint` to run the linting
 
----
 
-## Webhook Setup
+### Webhook Setup
 
 Use ngrok or any other webhook tool to receive the reports while running the app on local system. The webhook URL must be configured on Onfido dashboard.
+
+---
